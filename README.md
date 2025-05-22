@@ -1,75 +1,68 @@
-# Nuxt Minimal Starter
+# Queasy – Simple Quiz App
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Queasy is an interactive quiz web application made to make learning easier. Built with Nuxt 3, Vue 3, and TailwindCSS, it features a modern UI, math rendering, and persistent notes for effective study.
 
-## Setup
+## Features
 
-Make sure to install dependencies:
+- **Test your knowledge and learn**: Answer multiple-choice questions loaded from `questions.json`.
+- **Math Support**: Questions and notes support LaTeX math rendering using MathJax.
+- **Flag & Review**: Flag questions for later review and retry only incorrect or flagged questions.
+- **Notes**: Take notes with markdown and math, auto-saved in your browser, and exportable as `.md` files.
+- **Responsive UI**: Clean, dark-themed interface using Nuxt UI and TailwindCSS.
 
-```bash
-# npm
-npm install
+## Screenshots
 
-# pnpm
+![Queasy Screenshot](public/screenshot.png)
+
+## Getting Started
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v18+ recommended)
+- [pnpm](https://pnpm.io/) (recommended)
+
+### Installation
+```sh
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
+### Development
+```sh
 pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
+App will be available at `http://localhost:3000`.
 
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
+### Build for Production
+```sh
 pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+### Generate Static Site
+```sh
+pnpm generate
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Project Structure
+- `pages/index.vue` – Main quiz and notes UI
+- `public/questions.json` – Quiz questions (edit or extend as needed)
+- `public/config.json` - Quiz details and configuration
+- `assets/css/main.css` – TailwindCSS and UI styles
+- `nuxt.config.ts` – Nuxt configuration
+
+## Customization
+- **Add/Edit Questions**: Modify `public/questions.json` (see format in file)
+- **Math in Notes**: Use LaTeX syntax (e.g., `$P(A \cap B)$`)
+
+## Dependencies
+- [Nuxt 3](https://nuxt.com/)
+- [Vue 3](https://vuejs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [@nuxt/ui](https://ui.nuxt.com/)
+- [markdown-it](https://github.com/markdown-it/markdown-it)
+- [markdown-it-mathjax3](https://github.com/waylonflinn/markdown-it-mathjax3)
+
+## License
+MIT
+
+---
+
+*Made with ❤️ for the learners.*

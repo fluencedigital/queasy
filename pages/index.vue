@@ -2,7 +2,8 @@
     <div class="flex h-screen bg-gray-900 text-gray-100">
         <div class="flex-3 flex justify-center items-center p-4">
             <div class="bg-gray-800 p-8 rounded-2xl shadow-lg w-full max-w-2xl">
-                <h2 class="text-2xl font-bold mb-6 text-center">Quiz z Probabilistyki</h2>
+                <h2 class="text-2xl font-bold mb-2 text-center">{{ config.name }}</h2>
+                <p class="text-center text-gray-400 mb-6">{{ config.description }}</p>
                 <div v-if="currentQuestion">
                     <div class="space-y-6">
                         <div class="flex justify-between items-center">
@@ -60,7 +61,7 @@
             </div>
         </div>
         <div class="flex-1 bg-gray-800 p-6 border-l border-gray-700 overflow-auto sticky top-0">
-            <h3 class="text-xl font-semibold mb-4">Notatki</h3>
+            <h3 class="text-xl font-semibold mb-4">Notes</h3>
             <UPopover mode="hover" class="absolute top-4 right-4">
                 <template #content>
                     <div class="text-sm bg-neutral-800 p-4 rounded-lg text-white">
@@ -71,13 +72,15 @@
                 </template>
                 <span class="text-gray-400 cursor-pointer">?</span>
             </UPopover>
-            <textarea v-model="note" placeholder="Lista największych polaków..."
+            <textarea v-model="note" placeholder="Probably something important..."
                 class="w-full h-40 bg-gray-700 border border-gray-600 rounded-lg p-3 text-gray-100 mb-4 resize-y"></textarea>
             <div v-if="note" class="prose prose-invert prose-headings:text-2xl prose-headings:font-bold bg-gray-700 border border-gray-600 rounded-lg p-4 mb-4 max-h-60 overflow-auto"
                 v-html="renderMath(note)"></div>
-            <UButton icon="i-mdi-download" variant="ghost" color="white" class="w-fit px-4 py-2 rounded-lg"
-                @click="downloadNotes">
-            </UButton>
+            <div class="flex justify-end">
+                <UButton icon="i-mdi-download" variant="ghost" color="white" class="w-fit px-4 py-2 rounded-lg"
+                    @click="downloadNotes">
+                </UButton>
+            </div>
         </div>
     </div>
 </template>
@@ -96,6 +99,13 @@ const note = ref('');
 const wrongAnswers = ref(new Set());
 const flaggedQuestions = ref(new Set());
 const originalQuestions = ref([]);
+
+const config = ref({ name: '', description: '' });
+
+const loadConfig = async () => {
+    const res = await fetch('/config.json');
+    config.value = await res.json();
+};
 
 const loadQuestions = async () => {
     const res = await fetch('/questions.json');
@@ -123,9 +133,16 @@ function nextQuestion() {
     current.value++;
 }
 
+function escapeHtml(text) {
+    if (typeof text !== 'string') return text;
+    return text.replace(/[&<>"']/g, function (c) {
+        return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c];
+    });
+}
+
 function renderMath(text) {
     if (typeof text === 'string') {
-        return md.render(text);
+        return md.render(escapeHtml(text));
     }
     console.warn('renderMath received non-string input:', text);
     return '';
@@ -193,6 +210,7 @@ function toggleFlag() {
 }
 
 onMounted(() => {
+    loadConfig();
     loadQuestions();
     note.value = localStorage.getItem('quiz-notes') || '';
 })
