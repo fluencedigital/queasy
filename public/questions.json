@@ -1,0 +1,102 @@
+[
+  {
+    "question": "1. Jakie jest prawdopodobieństwo w klasycznym sensie?",
+    "options": ["Liczba zdarzeń elementarnych","Iloczyn zdarzeń","Liczba zdarzeń sprzyjających do wszystkich możliwych","Prawdopodobieństwo warunkowe"],
+    "answer": 2
+  },
+  {
+    "question": "2. Ile jest permutacji zbioru 5-elementowego?",
+    "options": ["25","10","120","60"],
+    "answer": 2
+  },
+  {
+    "question": "3. Które wyrażenie opisuje prawdopodobieństwo warunkowe?",
+    "options": ["P(A) + P(B)","P(A ∩ B) / P(B)","P(A) * P(B)","P(A | B) = P(A) - P(B)"],
+    "answer": 1
+  },
+  {
+    "question": "4. Jakie jest prawdopodobieństwo w ujęciu geometrycznym?",
+    "options": ["Stosunek miar zdarzenia do całkowitej przestrzeni","Iloczyn długości odcinków","Różnica pól zdarzeń","Pole zdarzenia podzielone przez średnicę"],
+    "answer": 0
+  },
+  {
+    "question": "5. Co oznacza niezależność zdarzeń A i B?",
+    "options": ["Zdarzenia nie mogą zajść razem","Zdarzenia są przeciwne","P(A ∩ B) = P(A) * P(B)","P(A | B) = P(B) | A"],
+    "answer": 2
+  },
+  {
+    "question": "6. Wzór na kombinacje bez powtórzeń to:",
+    "options": ["n^m","n! / (n - m)!","n! / (m! (n - m)!)","(n + m - 1)! / (m!(n - 1)!)"],
+    "answer": 2
+  },
+  {
+    "question": "7. Permutacje z powtórzeniami liczymy przez:",
+    "options": ["n!","n^k","n! / (n1!n2!...nk!)","k^n"],
+    "answer": 2
+  },
+  {
+    "question": "8. Wariacje z powtórzeniami to:",
+    "options": ["n^m","n! / (n - m)!","n!","n^n"],
+    "answer": 0
+  },
+  {
+    "question": "9. Kombinacje z powtórzeniami to:",
+    "options": ["n^m","(n + m - 1 choose m)","n!","(n - 1)! / m!"],
+    "answer": 1
+  },
+  {
+    "question": "10. Wzór na prawdopodobieństwo całkowite:",
+    "options": ["P(A | B) * P(B)","Σ P(Hi) * P(B | Hi)","P(A) + P(B) - P(A ∩ B)","P(A) / P(B)"],
+    "answer": 1
+  },
+  {
+    "question": "11. Prawo Bayesa to:",
+    "options": ["P(A ∪ B) = P(A) + P(B)","P(A) = P(B) * P(A | B)","P(Hi | B) = [P(Hi) * P(B | Hi)] / Σ P(Hj) * P(B | Hj)","P(A ∩ B) = P(A) - P(B)"],
+    "answer": 2
+  },
+  {
+    "question": "12. Prawdopodobieństwo zdarzenia pewnego to:",
+    "options": ["1","0","0.5","n"],
+    "answer": 0
+  },
+  {
+    "question": "13. P(∅) równa się:",
+    "options": ["1","0","∞","Nieokreślone"],
+    "answer": 1
+  },
+  {
+    "question": "14. Różnica A\\B oznacza:",
+    "options": ["Zdarzenia wspólne A i B","Elementy A niebędące w B","Zdarzenia tylko B","Dopełnienie A"],
+    "answer": 1
+  },
+  {
+    "question": "15. Zdarzenia wykluczające się to takie, że:",
+    "options": ["Mają wspólną część","P(A ∩ B) = 0","P(A ∪ B) = 1","P(A | B) = P(A)"],
+    "answer": 1
+  },
+  {
+    "question": "16. Diagram Venna pomaga w:",
+    "options": ["Rozwiązywaniu równań","Przedstawianiu działań na zbiorach","Mnożeniu permutacji","Dowodzeniu wzorów"],
+    "answer": 1
+  },
+  {
+    "question": "17. Jeżeli P(A ∩ B) = P(A)P(B), to:",
+    "options": ["A i B są wykluczające się","A i B są niezależne","A i B są równe","A i B nie mają wspólnych zdarzeń"],
+    "answer": 1
+  },
+  {
+    "question": "18. Zdarzenie odwrotne do A to:",
+    "options": ["A","∅","S \\ A","A ∪ B"],
+    "answer": 2
+  },
+  {
+    "question": "19. P(A ∪ B) =",
+    "options": ["P(A) + P(B)","P(A) + P(B) - P(A ∩ B)","P(A) * P(B)","P(A | B)"],
+    "answer": 1
+  },
+  {
+    "question": "20. Zdarzenie elementarne to:",
+    "options": ["Pojedynczy wynik doświadczenia losowego","Zdarzenie złożone","Suma zdarzeń","Zdarzenie niemożliwe"],
+    "answer": 0
+  }
+]
