@@ -1,0 +1,152 @@
+[
+    {
+        "question": "1. What is the chemical symbol for gold?",
+        "options": [
+            "Go",
+            "Au",
+            "Gd",
+            "Ag"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "2. Which planet is known as the Red Planet?",
+        "options": [
+            "Venus",
+            "Mars",
+            "Jupiter",
+            "Saturn"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "3. What is the speed of light in a vacuum?",
+        "options": [
+            "299,792,458 m/s",
+            "300,000,000 m/s",
+            "186,000 miles/s",
+            "All of the above"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "4. Which gas makes up approximately 78% of Earth's atmosphere?",
+        "options": [
+            "Oxygen",
+            "Nitrogen",
+            "Carbon Dioxide",
+            "Argon"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "5. What is the smallest unit of matter?",
+        "options": [
+            "Molecule",
+            "Cell",
+            "Atom",
+            "Electron"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "6. Who developed the theory of evolution by natural selection?",
+        "options": [
+            "Gregor Mendel",
+            "Charles Darwin",
+            "Alfred Wallace",
+            "Jean-Baptiste Lamarck"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "7. What is the hardest natural substance on Earth?",
+        "options": [
+            "Quartz",
+            "Steel",
+            "Diamond",
+            "Titanium"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "8. How many chambers does a human heart have?",
+        "options": [
+            "Two",
+            "Three",
+            "Four",
+            "Five"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "9. What is the chemical formula for water?",
+        "options": [
+            "H2O",
+            "CO2",
+            "NaCl",
+            "CH4"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "10. Which scientist is famous for the equation E=mc²?",
+        "options": [
+            "Isaac Newton",
+            "Albert Einstein",
+            "Galileo Galilei",
+            "Stephen Hawking"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "11. What type of animal is a whale?",
+        "options": [
+            "Fish",
+            "Mammal",
+            "Reptile",
+            "Amphibian"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "12. What is the powerhouse of the cell?",
+        "options": [
+            "Nucleus",
+            "Ribosome",
+            "Mitochondria",
+            "Endoplasmic Reticulum"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "13. At what temperature does water freeze?",
+        "options": [
+            "0°C",
+            "32°F",
+            "273K",
+            "All of the above"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "14. Which blood type is considered the universal donor?",
+        "options": [
+            "A",
+            "B",
+            "AB",
+            "O"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "15. What is the largest organ in the human body?",
+        "options": [
+            "Liver",
+            "Brain",
+            "Skin",
+            "Lungs"
+        ],
+        "answer": 2
+    }
+]

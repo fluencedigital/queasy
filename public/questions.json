@@ -1,27 +1,202 @@
 [
-  {
-    "question": "1. What does HTML stand for?",
-    "options": ["Hyper Trainer Marking Language", "Hyper Text Markup Language", "Hyper Text Marketing Language", "Hyper Tool Markup Language"],
-    "answer": 1
-  },
-  {
-    "question": "2. Which HTML tag is used to create a hyperlink?",
-    "options": ["<a>", "<link>", "<href>", "<hyperlink>"],
-    "answer": 0
-  },
-  {
-    "question": "3. What is the correct HTML element for inserting a line break?",
-    "options": ["<break>", "<br>", "<lb>", "<line>"],
-    "answer": 1
-  },
-  {
-    "question": "4. Which tag is used to display an image in HTML?",
-    "options": ["<img>", "<image>", "<pic>", "<src>"],
-    "answer": 0
-  },
-  {
-    "question": "5. What is the correct way to start an HTML document?",
-    "options": ["<html>", "<!DOCTYPE html>", "<body>", "<start>"],
-    "answer": 1
-  }
+    {
+        "question": "1. What is 15 + 27?",
+        "options": [
+            "41",
+            "42",
+            "43",
+            "44"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "2. What is 8 × 9?",
+        "options": [
+            "71",
+            "72",
+            "73",
+            "74"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "3. What is 144 ÷ 12?",
+        "options": [
+            "11",
+            "12",
+            "13",
+            "14"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "4. What is 25²?",
+        "options": [
+            "525",
+            "625",
+            "725",
+            "825"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "5. What is √64?",
+        "options": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "6. What is 7 × 13?",
+        "options": [
+            "89",
+            "90",
+            "91",
+            "92"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "7. What is 156 - 89?",
+        "options": [
+            "65",
+            "66",
+            "67",
+            "68"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "8. What is 3/4 as a decimal?",
+        "options": [
+            "0.65",
+            "0.70",
+            "0.75",
+            "0.80"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "9. What is 2³ × 3²?",
+        "options": [
+            "70",
+            "71",
+            "72",
+            "73"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "10. What is the perimeter of a rectangle with length 8 and width 5?",
+        "options": [
+            "24",
+            "25",
+            "26",
+            "27"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "11. What is 15% of 200?",
+        "options": [
+            "25",
+            "30",
+            "35",
+            "40"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "12. What is the area of a circle with radius 3? (Use π ≈ 3.14)",
+        "options": [
+            "26.26",
+            "27.26",
+            "28.26",
+            "29.26"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "13. If x + 12 = 25, what is x?",
+        "options": [
+            "11",
+            "12",
+            "13",
+            "14"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "14. What is 456 ÷ 8?",
+        "options": [
+            "56",
+            "57",
+            "58",
+            "59"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "15. What is the sum of angles in a triangle?",
+        "options": [
+            "160°",
+            "170°",
+            "180°",
+            "190°"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "16. What is 6! (6 factorial)?",
+        "options": [
+            "620",
+            "680",
+            "720",
+            "780"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "17. What is 0.25 × 48?",
+        "options": [
+            "10",
+            "11",
+            "12",
+            "13"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "18. If a triangle has sides 3, 4, and 5, what type of triangle is it?",
+        "options": [
+            "Acute",
+            "Right",
+            "Obtuse",
+            "Isosceles"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "19. What is the slope of a line passing through points (2,3) and (4,7)?",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "20. What is log₁₀(1000)?",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "answer": 1
+    }
 ]

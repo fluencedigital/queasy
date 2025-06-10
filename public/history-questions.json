@@ -1,0 +1,252 @@
+[
+    {
+        "question": "1. When did World War II begin?",
+        "options": [
+            "September 1, 1939",
+            "December 7, 1941",
+            "January 1, 1940",
+            "March 15, 1938"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "2. Who was the first Roman Emperor?",
+        "options": [
+            "Julius Caesar",
+            "Octavian Augustus",
+            "Mark Antony",
+            "Nero"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "3. In which year did the Berlin Wall fall?",
+        "options": [
+            "1987",
+            "1988",
+            "1989",
+            "1990"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "4. Which battle is considered the beginning of Napoleon's downfall?",
+        "options": [
+            "Battle of Austerlitz",
+            "Battle of Waterloo",
+            "Battle of Borodino",
+            "Battle of Jena"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "5. When did Columbus reach America?",
+        "options": [
+            "1490",
+            "1491",
+            "1492",
+            "1493"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "6. Who wrote the 'Communist Manifesto'?",
+        "options": [
+            "Lenin",
+            "Marx and Engels",
+            "Stalin",
+            "Trotsky"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "7. In which year did World War I end?",
+        "options": [
+            "1917",
+            "1918",
+            "1919",
+            "1920"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "8. Which civilization built Machu Picchu?",
+        "options": [
+            "Aztecs",
+            "Maya",
+            "Incas",
+            "Olmecs"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "9. Who was the King of England during the English Civil War?",
+        "options": [
+            "Henry VIII",
+            "Charles I",
+            "James I",
+            "Charles II"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "10. In which year was American independence declared?",
+        "options": [
+            "1774",
+            "1775",
+            "1776",
+            "1777"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "11. Who was the first President of the United States?",
+        "options": [
+            "Thomas Jefferson",
+            "George Washington",
+            "John Adams",
+            "Benjamin Franklin"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "12. When did the French Revolution begin?",
+        "options": [
+            "1788",
+            "1789",
+            "1790",
+            "1791"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "13. Which ancient wonder of the world was located in Alexandria?",
+        "options": [
+            "Hanging Gardens",
+            "Colossus of Rhodes",
+            "Lighthouse of Alexandria",
+            "Statue of Zeus"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "14. Who was the leader of Nazi Germany?",
+        "options": [
+            "Heinrich Himmler",
+            "Adolf Hitler",
+            "Joseph Goebbels",
+            "Hermann Göring"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "15. When did the Cold War officially end?",
+        "options": [
+            "1989",
+            "1990",
+            "1991",
+            "1992"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "16. Which empire was ruled by Genghis Khan?",
+        "options": [
+            "Ottoman Empire",
+            "Mongol Empire",
+            "Persian Empire",
+            "Byzantine Empire"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "17. In which year did the Titanic sink?",
+        "options": [
+            "1910",
+            "1911",
+            "1912",
+            "1913"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "18. Who painted the ceiling of the Sistine Chapel?",
+        "options": [
+            "Leonardo da Vinci",
+            "Michelangelo",
+            "Raphael",
+            "Donatello"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "19. Which ancient Greek philosopher taught Alexander the Great?",
+        "options": [
+            "Socrates",
+            "Plato",
+            "Aristotle",
+            "Pythagoras"
+        ],
+        "answer": 2
+    },
+    {
+        "question": "20. When did the American Civil War end?",
+        "options": [
+            "1864",
+            "1865",
+            "1866",
+            "1867"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "21. Who was the last Pharaoh of Ancient Egypt?",
+        "options": [
+            "Nefertiti",
+            "Cleopatra VII",
+            "Hatshepsut",
+            "Ankhesenamun"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "22. In which year did the Russian Revolution occur?",
+        "options": [
+            "1916",
+            "1917",
+            "1918",
+            "1919"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "23. Which country gifted the Statue of Liberty to the United States?",
+        "options": [
+            "England",
+            "France",
+            "Spain",
+            "Italy"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "24. Who was the first person to walk on the moon?",
+        "options": [
+            "Buzz Aldrin",
+            "Neil Armstrong",
+            "John Glenn",
+            "Alan Shepard"
+        ],
+        "answer": 1
+    },
+    {
+        "question": "25. When was the United Nations founded?",
+        "options": [
+            "1944",
+            "1945",
+            "1946",
+            "1947"
+        ],
+        "answer": 1
+    }
+]
