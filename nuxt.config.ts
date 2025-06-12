@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   nitro: {
     preset: 'cloudflare-durable',
+    entry: './server/routes/worker-entry.js',
     experimental: {
       wasm: true,
       websocket: true
