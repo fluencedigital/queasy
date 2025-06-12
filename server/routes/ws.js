@@ -1138,3 +1138,5 @@ export class GameDurableObject {
     }
   }
 }
+// For Nitr compatibility, also export as default
+export default GameDurableObject

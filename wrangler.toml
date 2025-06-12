@@ -17,9 +17,3 @@ new_classes = ["GameDurableObject"]
 
 [vars]
 NITRO_PRESET = "cloudflare-durable"
-
-[env.production]
-name = "queasy-production"
-
-[env.staging]
-name = "queasy-staging"
