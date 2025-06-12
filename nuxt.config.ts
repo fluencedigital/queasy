@@ -4,8 +4,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/ui', 'nuxt-security'],
   css: ['~/assets/css/main.css'],
-
   nitro: {
+    preset: 'cloudflare-durable',
     experimental: {
       wasm: true,
       websocket: true
